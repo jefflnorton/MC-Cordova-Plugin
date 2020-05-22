@@ -1,5 +1,7 @@
 # Salesforce Marketing Cloud Cordova Plugin
 
+This plugin is a fork of the official Marketing Cloud MobilePush SDK containing a required fix for Ionic Capacitor.  This fix will be applied to the official repo starting in version 7.2.
+
 Use this plugin to implement the Marketing Cloud MobilePush SDK for your [iOS](https://salesforce-marketingcloud.github.io/MarketingCloudSDK-iOS/) and [Android](http://salesforce-marketingcloud.github.io/MarketingCloudSDK-Android/) applications.
 
 ## Release Notes
@@ -8,10 +10,10 @@ Release notes for the plugin can be found [here](CHANGELOG.md)
 
 ## Installation
 
-#### 1. Add plugin to your application via [npm](https://www.npmjs.com/package/cordova-plugin-marketingcloudsdk)
+#### 1. Add plugin to your application via [npm](https://www.npmjs.com/package/cordova-plugin-capacitor-marketingcloudsdk)
 
 ```shell
-cordova plugin add cordova-plugin-marketingcloudsdk
+cordova plugin add cordova-plugin-capacitor-marketingcloudsdk
 ```
 
 **Required for iOS**
